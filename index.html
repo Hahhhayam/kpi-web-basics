@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reshetniak Serhii IS-22 Var 165</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="validations.js"></script>
+</head>
+<body>
+<form>
+    <div id="caption">Enter your credentials</div>
+
+    <div id="full-name-case">
+        Full name
+        <p class="validation-error" hidden>Не ПІБ. Приклад: Петренко Петро Петрович</p>
+        <input name="full-name" type="text">
+    </div>
+
+    <div id="variant-case">
+        Variant
+        <p class="validation-error" hidden>Неправильний варіант. Введіть число від 000 до 999</p>
+        <input name="variant" type="text">
+    </div>
+
+    <div id="group-case">
+        Group
+        <p class="validation-error" hidden>Не група. Приклад: ІС-22, ІАмп-99</p>
+        <input name="group" type="text">
+    </div>
+
+    <div id="telephone-case">
+        Telephone
+        <p class="validation-error" hidden>Не номер телефону.</p>
+        <input name="telephone" type="text">
+    </div>
+
+    <div id="card-id-case">
+        Card ID
+        <p class="validation-error" hidden>Неправильний ІД. Формат: 0000</p>
+        <input name="card-id" type="text">
+    </div>
+
+    <div id="button">
+        <button type="button">
+            <span>Submit</span>
+        </button>
+    </div>
+</form>
+<a href="task2/index.html">to task 2</a>
+</body>
+</html>
