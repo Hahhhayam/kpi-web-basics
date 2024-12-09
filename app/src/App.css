@@ -1,0 +1,41 @@
+body {
+    color: #2c3e50;
+    display: contents;
+}
+
+.header {
+    color: #2c3e50;
+    font-size: xxx-large;
+}
+
+.small {
+    font-size: x-large;
+}
+
+.medium {
+    font-size: xx-large;
+}
+
+.large {
+    font-size: xxx-large;
+}
+
+.selected {
+    background-color: red;
+    color: white;
+}
+
+.zoom-in {
+    width: 1440px;
+    height: 1022.4px;
+}
+
+img {
+    width: 1200px;
+    height: 852px;
+}
+
+.zoom-out {
+    width: 960px;
+    height: 681.6px;
+}
