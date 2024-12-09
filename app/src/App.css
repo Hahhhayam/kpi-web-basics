@@ -1,41 +1,12 @@
-body {
-    color: #2c3e50;
-    display: contents;
-}
-
-.header {
-    color: #2c3e50;
-    font-size: xxx-large;
-}
-
-.small {
-    font-size: x-large;
-}
-
-.medium {
-    font-size: xx-large;
-}
-
-.large {
-    font-size: xxx-large;
-}
-
-.selected {
-    background-color: red;
-    color: white;
-}
-
-.zoom-in {
-    width: 1440px;
-    height: 1022.4px;
+.App {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 100vw;
 }
 
 img {
-    width: 1200px;
-    height: 852px;
-}
-
-.zoom-out {
-    width: 960px;
-    height: 681.6px;
+    width: 250px;
+    height: 250px;
+    overflow: clip;
 }
